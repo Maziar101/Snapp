@@ -1,0 +1,38 @@
+/**
+*
+*	Name:			IRANYekanXFaNum Fonts
+*	Version:			2.4
+*	Author:			Moslem Ebrahimi (moslemebrahimi.com)
+*	Created on:		Aug 02, 2022
+*	Updated on:		Aug 02, 2022
+*	Website:			http://fontiran.com
+*	Copyright:		Commercial/Proprietary Software
+--------------------------------------------------------------------------------------
+فونت ایران یکان X  یک نرم افزار مالکیتی محسوب می شود. جهت آگاهی از قوانین استفاده از این فونت ها لطفا به وب سایت (فونت ایران دات کام) مراجعه نمایید
+--------------------------------------------------------------------------------------
+IRANYekanXFaNum fonts are considered a proprietary software. To gain information about the laws regarding the use of these fonts, please visit www.fontiran.com 
+--------------------------------------------------------------------------------------
+This set of fonts are used in this project under the license: (.....)
+------------------------------------------------------------------------------------- fonts/-
+*	
+**/
+
+
+
+@font-face {
+	font-family: "IRAN";
+	font-style: normal;
+	font-weight: bold;
+	src: url('woff/IRANYekanXFaNum-Bold.woff') format('woff'),   
+	url('woff2/IRANYekanXFaNum-Bold.woff2') format('woff2');	 
+}
+
+@font-face {
+	font-family: "IRAN";
+	font-style: normal;
+	font-weight: normal;
+	src: url('woff/IRANYekanXFaNum-Regular.woff') format('woff'),   
+	url('woff2/IRANYekanXFaNum-Regular.woff2') format('woff2');	
+}
+
+
