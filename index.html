@@ -15,14 +15,14 @@
     <body>
         <header>
             <section class="header-section">
-                <div class="icons-of-phone-nav">
-                    <div class="first-svg">
+                <div id="icons-of-phone-nav" class="icons-of-phone-nav">
+                    <div class="first-svg" id="first-svg">
                         <img src="https://web-cdn.snapp.ir/snapp-website/icons/menu_black_24dp.svg" alt="">
                     </div>
-                    <div class="second-svg">
+                    <div class="second-svg" id="second-svg">
                         <img src="https://web-cdn.snapp.ir/snapp-website/icons/close_black_24dp.svg" alt="">
                     </div>
-                    <ul class="menu-items">
+                    <ul class="menu-items" id="menu-items">
                         <li><a href="#">فرصت های شغلی</a></li>
                         <li><a href="#">بلاگ</a></li>
                         <li><a href="#">باشگاه رانندگان</a></li>
@@ -35,9 +35,31 @@
                         <hr>
                         <div>
                             <li><a href="#">اپلیکیشن اسنپ</a></li>
-                            <i class="icon-0-2-70 icon-d10-0-2-170 " aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path d="M8.293 4.707a1 1 0 011.414-1.414l8 8a1 1 0 010 1.414l-8 8a1 1 0 11-1.414-1.414L15.586 12 8.293 4.707z" fill="currentColor" fill-rule="nonzero"></path></g></svg></i>
+                            <i id="click-icon-in-menu" class="icon-0-2-70 icon-d10-0-2-170 " aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path d="M8.293 4.707a1 1 0 011.414-1.414l8 8a1 1 0 010 1.414l-8 8a1 1 0 11-1.414-1.414L15.586 12 8.293 4.707z" fill="currentColor" fill-rule="nonzero"></path></g></svg></i>
+                            <img id="up-arrow" src="images/icons8-collapse-arrow-50.png" width="25px">
                         </div>
-                        
+                        <div id="pop-up-download-menu" class="pop-up-download-menu">
+                            <div class="flex-align justy-menu">
+                                <img src="images/directdownload-icon.png" alt="">
+                                <span>دانلود مستقیم</span>
+                            </div>
+                            <div class="flex-align justy-menu">
+                                <img src="images/cafebazaar.png" alt="">
+                                <span>دانلود از کافه ابزار</span>
+                            </div>
+                            <div class="flex-align justy-menu">
+                                <img src="images/myketmarketicon.png" alt="">
+                                <span>دانلود از مایکت</span>
+                            </div>
+                            <div class="flex-align justy-menu">
+                                <img class="snapp-pwa-dn-img" src="images/snapp-pwa.svg" alt="">
+                                <span>وب اپلیکیشن اسنپ</span>
+                            </div>
+                            <div class="flex-align justy-menu">
+                                <img src="images/apple.png" alt="">
+                                <span>دانلود از اپ استور</span>
+                            </div>
+                        </div>
                     </ul>
                 </div>
                 <section class="logo-section">
@@ -90,7 +112,33 @@
                             <button class="enter-to-snapp-button">ورود به وب اپلیکیشن اسنپ</button>
                         </div>
                     </form>
-                    <button class="download-app-button">دانلود اپلیکیشن اسنپ</button>
+                    <button id="download-app-button" class="download-app-button">دانلود اپلیکیشن اسنپ</button>
+                </div>
+                <div id="pop-up-download">
+                    <div class="flex-align flex-justify">
+                        <h2>اپلیکیشن اسنپ</h2>
+                        <i id="close-btn" class="icon-0-2-84 icon-d6-0-2-132 " aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#000000"><path d="M0 0h24v24H0z" fill="none"></path><path d="M14.59 8L12 10.59 9.41 8 8 9.41 10.59 12 8 14.59 9.41 16 12 13.41 14.59 16 16 14.59 13.41 12 16 9.41 14.59 8zM12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"></path></svg></i>
+                    </div>
+                    <div class="flex-align">
+                        <img src="images/directdownload-icon.png" alt="">
+                        <span>دانلود مستقیم</span>
+                    </div>
+                    <div class="flex-align">
+                        <img src="images/cafebazaar.png" alt="">
+                        <span>دانلود از کافه ابزار</span>
+                    </div>
+                    <div class="flex-align">
+                        <img src="images/myketmarketicon.png" alt="">
+                        <span>دانلود از مایکت</span>
+                    </div>
+                    <div class="flex-align">
+                        <img class="snapp-pwa-dn-img" src="images/snapp-pwa.svg" alt="">
+                        <span>وب اپلیکیشن اسنپ</span>
+                    </div>
+                    <div class="flex-align">
+                        <img src="images/apple.png" alt="">
+                        <span>دانلود از اپ استور</span>
+                    </div>
                 </div>
                 <div class="left-main-form"></div>
             </section>
@@ -376,5 +424,6 @@
                 <img src="images/namad.png" alt="">
             </section>
         </footer>
+        <script src="Js/script.js"></script>
     </body>
 </html>
